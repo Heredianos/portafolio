@@ -1,0 +1,23 @@
+.Profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Profile > img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 100%;
+    border: 5px solid black;
+}
+
+.Profile h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+    .Profile >img {
+            margin-bottom: 50px;
+            width: 80%;
+    }
+}

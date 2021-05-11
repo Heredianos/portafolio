@@ -4,6 +4,7 @@ import Cover from "./components/Cover";
 import Navbar from "./components/Navbar";
 import Badge from "./components/About";
 import Slider from "./components/Slider";
+import ExperienceSlider from "./components/ExperienceSlider";
 import Info from "./components/Info";
 import Footer from "./components/Footer";
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Navbar isScrolling={scrollHeight} />
       <Cover />
       <Badge/>
+      <ExperienceSlider/>
       <Slider/>
       <Info/>
       <Footer/>

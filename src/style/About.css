@@ -21,6 +21,7 @@
 
 .about-desc >p {
     line-height: 1.5;
+    text-align: justify;
 }
 
 .about-img {
@@ -54,5 +55,6 @@
     }
     .about-img > img {
         width: 100%;
-    } 
+    }
+
 }

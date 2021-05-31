@@ -46,7 +46,9 @@ const Slider = () => {
                                 slidesPerPage: 1,
                                 arrows: false,
                                 resolve:slidesToShowPlugin,
-                                
+                                options: {
+                                    numberOfSlides: 1,
+                                },
                             },
                         ]
                     }

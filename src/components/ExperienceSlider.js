@@ -36,6 +36,12 @@ const ExperienceSlider = () => {
                 <Carousel plugins={[
                     'arrows',
                     'infinite',
+                    {
+                        resolve: slidesToShowPlugin,
+                        options: {
+                            numberOfSlides:1,
+                        },
+                    },
                 ]
             }
                 breakpoints={{
@@ -43,9 +49,11 @@ const ExperienceSlider = () => {
                         plugins: [
                             {
                                 slidesPerPage: 1,
-                                arrows: false,
+                                arrows: true,
                                 resolve:slidesToShowPlugin,
-                                
+                                options: {
+                                    numberOfSlides: 1,
+                                },
                             },
                         ]
                     }

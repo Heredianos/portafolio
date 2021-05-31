@@ -38,6 +38,7 @@
     right: 0;
     width: 70%;
     padding-left: 30px;
+    padding-right: 10px;
     border-top-left-radius: 20px;
     opacity: 0.8;
 }
@@ -80,5 +81,6 @@
 
     .slide-container {
         width: 100%;
+        padding: 5%;
     }
 }
